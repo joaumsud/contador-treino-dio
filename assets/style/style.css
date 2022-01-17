@@ -1,37 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
-
-*{
-    font-family: 'Luxurious Roman', 'sans-serif';
-}
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:  #0099FF;
+    background-color: #3c6382;
+    font-family: 'The Nautigal', cursive;
+    padding: auto;
+    margin: auto;
 }
-
-button{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: 3px solid lightslategray;
-    background-color: #bbdefb;
+h1{
     text-align: center;
-    font-size: 24px;
-    color: lightslategray;
-    font-weight: bold;    
+    margin-left: 50%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    color: rgba(249, 250, 252, 0.8);
+    font-size: 150px;
+    transform: translate(-50%, -50%);
+    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw  hsl(344, 49%, 33%),
+     0 0 3vw hsl(344, 49%, 33%), 0 0 3vw hsl(344, 49%, 33%);
 }
 
-#counter{
-    display: flex;
+.table-counter{
+    margin: 0%;
+    padding: 0%;
+    border: 10px solid white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
 }
 
-#number{
-    display: flex;
-    align-items: center;
-    margin: 0 15px;
-    font-size: 24px;
+.botao{
+    margin: 40px;
+    padding: 40px;
+    border: 5px solid #38ada9;
+    background-color: #079992;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #0a3d62;
+    font-weight: bold;
+    
 }
 
+.botao:hover{
+    background-color: #38ada9;
+}
+span{
+    margin-top: 50%;
+    padding-top:50%;
+    font-size: 100px;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+row #number{
+    padding: 0;
+    margin: 0;
+}
+
+.zerar{
+    border: 2px solid hsl(344, 49%, 33%);
+    font-size: 40px;
+    border-radius: 10%;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #b71540;
+    color:  whitesmoke;
+    justify-content: center;
+}
+
+.zerar:hover{
+    background-color:hsl(344, 49%, 33%);
+}
