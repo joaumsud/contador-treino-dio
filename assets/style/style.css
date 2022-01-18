@@ -5,6 +5,7 @@ body{
     font-family: 'The Nautigal', cursive;
     padding: auto;
     margin: auto;
+    max-width: 900px;
 }
 h1{
     text-align: center;
